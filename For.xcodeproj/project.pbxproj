@@ -17,6 +17,9 @@
 		773C5F961C00C21E0033A3EA /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C5F951C00C21E0033A3EA /* ProductTableViewCell.swift */; };
 		773C5F981C00D07A0033A3EA /* Saving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C5F971C00D07A0033A3EA /* Saving.swift */; };
 		773C5F9A1C00DF030033A3EA /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C5F991C00DF030033A3EA /* ProductViewController.swift */; };
+		77C59DAB1C046AFB00DE9CC0 /* Fund.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C59DAA1C046AFB00DE9CC0 /* Fund.swift */; };
+		77C59DAE1C046BA200DE9CC0 /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C59DAD1C046BA200DE9CC0 /* Share.swift */; };
+		77C59DB01C04783800DE9CC0 /* SwiftDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C59DAF1C04783800DE9CC0 /* SwiftDate.swift */; };
 		77D459B61C0093A300571E75 /* SaveMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D459B51C0093A300571E75 /* SaveMoneyViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +48,9 @@
 		773C5F951C00C21E0033A3EA /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		773C5F971C00D07A0033A3EA /* Saving.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Saving.swift; sourceTree = "<group>"; };
 		773C5F991C00DF030033A3EA /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		77C59DAA1C046AFB00DE9CC0 /* Fund.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fund.swift; sourceTree = "<group>"; };
+		77C59DAD1C046BA200DE9CC0 /* Share.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
+		77C59DAF1C04783800DE9CC0 /* SwiftDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftDate.swift; sourceTree = "<group>"; };
 		77D459B51C0093A300571E75 /* SaveMoneyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveMoneyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,13 +93,12 @@
 		770B4E681C0077ED00D1D0BD /* For */ = {
 			isa = PBXGroup;
 			children = (
+				77C59DAC1C046B1200DE9CC0 /* Models */,
 				770B4E691C0077ED00D1D0BD /* AppDelegate.swift */,
 				770B4E6B1C0077ED00D1D0BD /* MainViewController.swift */,
 				77D459B51C0093A300571E75 /* SaveMoneyViewController.swift */,
 				773C5F951C00C21E0033A3EA /* ProductTableViewCell.swift */,
 				773C5F991C00DF030033A3EA /* ProductViewController.swift */,
-				770B4E891C007ED600D1D0BD /* Product.swift */,
-				773C5F971C00D07A0033A3EA /* Saving.swift */,
 				770B4E6D1C0077ED00D1D0BD /* Main.storyboard */,
 				770B4E701C0077ED00D1D0BD /* Assets.xcassets */,
 				770B4E721C0077ED00D1D0BD /* LaunchScreen.storyboard */,
@@ -109,6 +114,18 @@
 				770B4E801C0077ED00D1D0BD /* Info.plist */,
 			);
 			path = ForTests;
+			sourceTree = "<group>";
+		};
+		77C59DAC1C046B1200DE9CC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77C59DAA1C046AFB00DE9CC0 /* Fund.swift */,
+				77C59DAD1C046BA200DE9CC0 /* Share.swift */,
+				770B4E891C007ED600D1D0BD /* Product.swift */,
+				773C5F971C00D07A0033A3EA /* Saving.swift */,
+				77C59DAF1C04783800DE9CC0 /* SwiftDate.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,11 +231,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				770B4E6C1C0077ED00D1D0BD /* MainViewController.swift in Sources */,
+				77C59DB01C04783800DE9CC0 /* SwiftDate.swift in Sources */,
 				770B4E6A1C0077ED00D1D0BD /* AppDelegate.swift in Sources */,
 				773C5F961C00C21E0033A3EA /* ProductTableViewCell.swift in Sources */,
 				773C5F9A1C00DF030033A3EA /* ProductViewController.swift in Sources */,
+				77C59DAE1C046BA200DE9CC0 /* Share.swift in Sources */,
 				77D459B61C0093A300571E75 /* SaveMoneyViewController.swift in Sources */,
 				770B4E8A1C007ED600D1D0BD /* Product.swift in Sources */,
+				77C59DAB1C046AFB00DE9CC0 /* Fund.swift in Sources */,
 				773C5F981C00D07A0033A3EA /* Saving.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
